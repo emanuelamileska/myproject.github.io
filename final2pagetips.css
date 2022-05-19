@@ -1,0 +1,115 @@
+*,
+*::after,
+*::before{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.heading1{
+  width:100%;
+  background-color:#CD0359;
+  text-align: center;
+  color:white;
+  padding:3px;
+  font-family:'Lato',sans-serif;
+
+}
+
+.heading h1{
+ padding:16px 20px;
+
+}
+.menu{
+  width:100%;
+  background-color: #8AA53E;
+  float:right;
+  /*top:0;
+  position: fixed;*/
+}
+
+.NavBar{
+  list-style-type: none;
+  display:flex;
+  float:right;
+  color:black;
+
+
+}
+
+.NavBar li{
+  display:inline;
+  padding:10px 8px;
+  text-align: center;
+  font-size: 21px;
+
+}
+.NavBar a{
+  text-decoration: none;
+  color:white;
+  font-family: sans-serif;
+
+}
+
+.Main_Part{
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top:80px;
+
+}
+
+.Two_Par{
+
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  background-color: #CD0359;
+}
+
+.Two_par_text{
+  background-color:#FFCCFF;
+  margin:20px;
+  padding:15px;
+  font-family: 'Lato',sans-serif;
+  text-align:center;
+  font-size: 18px;
+}
+
+.img{
+  background-size:auto;
+
+  background-repeat: no-repeat;
+
+  cursor:pointer;
+
+  position:relative;
+  width:100%;
+
+}
+
+.naslov1{
+  padding-top:20px;
+  padding-bottom:20px;
+  font-family:sans-serif;
+  font-size:18px;
+}
+.podnaslov1{
+  padding-bottom:20px;
+  font-family:sans-serif;
+  font-size:16px;
+}
+.paragraf1{
+  padding-bottom:20px;
+  font-family: sans-serif;;
+  font-size:20px;
+
+}
+
+.footer-box {
+  width: 100%;
+  padding:25px 50px;
+  text-align:center;
+  background-color: #D21D6A;
+      font-family: 'Lato',sans-serif;
+      font-style: italic;
+      color:white;
+}
